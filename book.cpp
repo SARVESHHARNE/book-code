@@ -5,18 +5,18 @@
 			this->bookname="new book";
 			this->price=0;
 		}
-		void setBookName(string bookname){
+		void Book::setBookName(string bookname){
 			this->bookname=bookname;
 		}
-		void setPrice(double price){
+		void Book::setPrice(double price){
 			this->price=price;
 		}
-		int getBookId(){
+		int Book::getBookId(){
 			return bookid;
 		}
-		string getBookName(){
+		string Book::getBookName(){
 			return bookname;
 		}
-		double getPrice(){
+		double Book::getPrice(){
 			return price;
 		}

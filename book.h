@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+using namespace std;
 
 class Book {
 	private: 
@@ -7,10 +8,10 @@ class Book {
 			string bookname;
 			double price;
 	public:
-		Book()=0;
-		void setBookName(string bookname)=0;
-		void setPrice(double price)=0;
-		int getBookId()=0;
-		string getBookName()=0;
-		double getPrice()=0;
+		Book();
+		void setBookName(string bookname);
+		void setPrice(double price);
+		int getBookId();
+		string getBookName();
+		double getPrice();
 };
